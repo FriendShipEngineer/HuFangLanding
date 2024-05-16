@@ -1,4 +1,4 @@
-const author = "Egor Masiutkin";
+const author = "Hu Fang";
 const description =
 	"Product Manager from China, who loves to make wonderful things that interest people - customer friendly - benefits to all";
 const url = "https://egormasiutkin.netlify.app";
