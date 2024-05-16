@@ -13,7 +13,8 @@ export function AboutSection() {
 		<LazyMotion features={domAnimation}>
 			<section id="about" className="section">
 				<HeadingDivider title="About me" />
-				<div className="pt-10 pb-16 max-w-5xl flex flex-col gap-3">
+				<div className="pt-10 pb-16 max-w-5xl flex flex-row gap-3">
+					<img src='yedda.png' alt = "hufang photo" width = "500px" height = "300px"/>
 					<div
 						tabIndex="0"
 						ref={ref}
@@ -25,29 +26,23 @@ export function AboutSection() {
 						}}
 					>
 						<p>
-							My name is Vasile. I successfully graduated Technical University of Moldova, computer
-							science faculty.
+							My name is Hu Fang. I successfully graduated Hunan International Economics University, 
+							honored Bachelor`&apos;`s degree in Business English.
 						</p>
 						<p>
-							During my university years, I developed a deep passion for web programming, and I
+							During my university years, I studied a deep passion for product management and marketing, and I
 							consistently engaged in learning new concepts and techniques in this field.
 						</p>
-						<p>So, officially, my programming journey began in 2017 as a WordPress developer.</p>
+						<p>So, officially, I began my professional career in 2020 as Sales Specialist.</p>
 						<p className="my-3.5">
-							I enjoy learning technologies that interest me, which is why I dedicated a significant
-							amount of time to working with WordPress.
-						</p>
-						<p>
-							One day, I decided to try something new, and I started learning React. I was so
-							excited to see how fast I can build a website with it, and how easy it is to maintain
-							it. Consequently, I quickly learnt Next.js and I used it to build some company
-							projects working in a team with a backend dev.
+							I enjoy having tasks that interest me, which is why I dedicated a significant
+							amount of time to working with Product managment.
 						</p>
 						<p className="my-3.5">
-							In december 2023, I had an opportunity to start working as a React developer for a
-							company with the possibility of transitioning to mobile development. I was skeptical
+							In May 2021, I had an opportunity to start working as a Product Manager for a
+							Moko Technology LTD - one of the biggest Electonics Companies. I was skeptical
 							about it at first, but I decided to give it a try, and I don&lsquo;t regret it. Now, I
-							thoroughly enjoy working with Flutter and Dart.
+							thoroughly enjoy working :).
 						</p>
 					</div>
 				</div>
